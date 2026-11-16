@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "web-browse": {
+      "command": "/home/zia/.nvm/versions/node/v22.23.4/bin/node",
+      "args": [
+        "/home/zia/.free-pi/agent/bin/web-browse-mcp.mjs"
+      ],
+      "description": "Live web browsing: fetch any page as readable text and run web searches (no free-pi login or allowance needed).",
+      "exposure": "direct"
+    },
+    "webexec": {
+      "command": "python3",
+      "args": [
+        "/home/zia/.free-pi/agent/skills/webexec/wexec-mcp.py"
+      ]
+    }
+  }
+}

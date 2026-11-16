@@ -1,0 +1,18 @@
+# kredensial
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+*credentials*.json
+
+# runtime
+*.log
+.guard.pid
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+*Zone.Identifier*
